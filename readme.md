@@ -13,7 +13,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  All eyes on Kiffy
+  Mf big 3 it's just Big Me 
 </div>
 
 <br />
