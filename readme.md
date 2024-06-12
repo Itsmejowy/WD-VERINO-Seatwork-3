@@ -13,7 +13,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Mf big 3 it's just Big Me 
+  Mf The big 3 it's just Big Me 
 </div>
 
 <br />
