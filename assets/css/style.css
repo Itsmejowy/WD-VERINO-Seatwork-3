@@ -1,7 +1,51 @@
-body{
+body {
     background-image: url(https://i.pinimg.com/originals/e5/dd/a4/e5dda4674d1401d0bb65671ba8036037.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+p {
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px; /* Space between buttons */
+}
+
+.styled-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.styled-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.styled-button:active {
+    background-color: #004080;
+    transform: scale(1);
 }
