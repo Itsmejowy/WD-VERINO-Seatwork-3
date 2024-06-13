@@ -30,6 +30,7 @@ p {
 }
 
 .styled-button {
+    display: inline-block;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
@@ -37,6 +38,7 @@ p {
     border-radius: 5px;
     background-color: #007BFF;
     color: white;
+    text-decoration: none; /* Remove underline from links */
     transition: background-color 0.3s, transform 0.3s;
 }
 
