@@ -1,0 +1,304 @@
+/* Static Header 1 */
+.header-1 {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-1 nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-1 nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.header-1 nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Static Header 2 */
+.header-2 {
+    background-color: #555;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.header-2 .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-2 nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header-2 nav ul li {
+    margin: 0 10px;
+}
+
+.header-2 nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Static Header 3 */
+.header-3 {
+    background: linear-gradient(to right, #4CAF50, #81C784);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.header-3 nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.header-3 nav ul li {
+    margin: 0 15px;
+}
+
+.header-3 nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Static Header 4 */
+.header-4 {
+    background-color: #009688;
+    color: white;
+    padding: 20px 0;
+}
+
+.header-4 .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header-4 nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header-4 nav ul li {
+    margin: 0 10px;
+}
+
+.header-4 nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Static Header 5 */
+.header-5 {
+    background-color: #673AB7;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.header-5 nav ul {
+    list-style-type: none;
+    margin: 20px 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.header-5 nav ul li {
+    margin: 0 15px;
+}
+
+.header-5 nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Animated Header 1 */
+.header-animated-1 {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    animation: backgroundChange 10s infinite;
+}
+
+@keyframes backgroundChange {
+    0% { background-color: #333; }
+    50% { background-color: #666; }
+    100% { background-color: #333; }
+}
+
+.header-animated-1 nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-animated-1 nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.header-animated-1 nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Animated Header 2 */
+.header-animated-2 {
+    background-color: #555;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.header-animated-2 .logo {
+    font-size: 24px;
+    font-weight: bold;
+    animation: logoBounce 2s infinite;
+}
+
+@keyframes logoBounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+.header-animated-2 nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header-animated-2 nav ul li {
+    margin: 0 10px;
+}
+
+.header-animated-2 nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Animated Header 3 */
+.header-animated-3 {
+    background: linear-gradient(to right, #4CAF50, #81C784);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    animation: textGlow 3s infinite;
+}
+
+@keyframes textGlow {
+    0%, 100% { text-shadow: 0 0 5px white; }
+    50% { text-shadow: 0 0 20px white; }
+}
+
+.header-animated-3 nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.header-animated-3 nav ul li {
+    margin: 0 15px;
+}
+
+.header-animated-3 nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Animated Header 4 */
+.header-animated-4 {
+    background-color: #009688;
+    color: white;
+    padding: 20px 0;
+    animation: slideIn 1s ease-out;
+}
+
+@keyframes slideIn {
+    from { transform: translateY(-100%); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+.header-animated-4 .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header-animated-4 nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header-animated-4 nav ul li {
+    margin: 0 10px;
+}
+
+.header-animated-4 nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Animated Header 5 */
+.header-animated-5 {
+    background-color: #673AB7;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.header-animated-5 nav ul {
+    list-style-type: none;
+    margin: 20px 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.header-animated-5 nav ul li {
+    margin: 0 15px;
+}
+
+.header-animated-5 nav ul li a {
+    color: white;
+    text-decoration: none;
+}
