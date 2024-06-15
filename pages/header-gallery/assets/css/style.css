@@ -10,7 +10,6 @@
     border-radius: 4px;
 }
 
-/* Static Header 1 */
 .header-1 {
     background-color: #333;
     color: white;
@@ -34,7 +33,6 @@
     text-decoration: none;
 }
 
-/* Static Header 2 */
 .header-2 {
     background-color: #555;
     color: white;
@@ -65,7 +63,6 @@
     text-decoration: none;
 }
 
-/* Static Header 3 */
 .header-3 {
     background: linear-gradient(to right, #4CAF50, #81C784);
     color: white;
@@ -90,7 +87,6 @@
     text-decoration: none;
 }
 
-/* Static Header 4 */
 .header-4 {
     background-color: #009688;
     color: white;
@@ -122,7 +118,6 @@
     text-decoration: none;
 }
 
-/* Static Header 5 */
 .header-5 {
     background-color: #673AB7;
     color: white;
@@ -147,7 +142,6 @@
     text-decoration: none;
 }
 
-/* Animated Header 1 */
 .header-animated-1 {
     background-color: #333;
     color: white;
@@ -178,7 +172,6 @@
     text-decoration: none;
 }
 
-/* Animated Header 2 */
 .header-animated-2 {
     background-color: #555;
     color: white;
@@ -215,7 +208,6 @@
     text-decoration: none;
 }
 
-/* Animated Header 3 */
 .header-animated-3 {
     background: linear-gradient(to right, #4CAF50, #81C784);
     color: white;
@@ -246,7 +238,6 @@
     text-decoration: none;
 }
 
-/* Animated Header 4 */
 .header-animated-4 {
     background-color: #009688;
     color: white;
@@ -284,7 +275,6 @@
     text-decoration: none;
 }
 
-/* Animated Header 5 */
 .header-animated-5 {
     background-color: #673AB7;
     color: white;
